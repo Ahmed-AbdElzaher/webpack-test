@@ -11,6 +11,12 @@ img.style.width="50px"
 img.style.height="50px"
 element.appendChild(img);
 
+import photo1 from "../../assets/cover.jpg"
+const img1 = document.createElement("img");
+img1.src=photo1;
+img1.style.width="150px"
+img1.style.height="150px"
+document.body.appendChild(img1);
 // nooo
 
 
